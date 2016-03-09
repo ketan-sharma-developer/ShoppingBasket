@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/item_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/item_unit_price"
+        android:layout_below="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/item_unit"
+        android:layout_below="@+id/item_name"
+        android:layout_toRightOf="@+id/item_unit_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <ImageButton
+        android:id="@+id/basket_qty_add"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/image_button_state"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_add" />
+    <ImageButton
+        android:id="@+id/basket_qty_minus"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/basket_qty_add"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/image_button_state"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_remove" />
+    <ImageButton
+        android:id="@+id/basket_qty_delete"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/basket_qty_minus"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/image_button_state"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_delete" />
+    <TextView
+        android:id="@+id/basket_qty"
+        android:layout_below="@+id/item_unit"
+        android:layout_alignLeft="@+id/basket_qty_minus"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/qty"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/basket_qty_value"
+        android:layout_below="@+id/item_unit"
+        android:layout_toRightOf="@+id/basket_qty"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>

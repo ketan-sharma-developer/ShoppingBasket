@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Shopping Items</string>
+    <string name="basket_qty">basket_qty</string>
+    <string name="currency">Currency:</string>
+    <string name="currency_url">https://api.fixer.io/latest</string>
+    <string name="empty_basket_warning">Please ensure you have items in your basket before checking out</string>
+    <string name="intent_action">android.intent.action.MAIN</string>
+    <string name="eur">EUR</string>
+    <string name="gbp">GBP</string>
+    <string name="qty">Qty</string>
+    <string name="rates">rates</string>
+    <string name="sql">ifnull(basket_qty,0) > 0</string>
+    <string name="title_activity_basket_activity">Your Basket</string>
+    <string name="total">Total:</string>
+    <string name="update_total">Update Total</string>
+    <string name="update_msg">update_msg</string>
+    <string name="value_format">%.2f</string>
+</resources>
