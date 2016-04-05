@@ -1,7 +1,7 @@
 package com.example.ketansharma.shopping_basket;
 
 /**
- * Created by ketan.sharma on 23/02/2016.
+ * Created by ketan.sharma.
  * Class to create, insert and update the SQLite database.
  * All database functions are executed here.
  */

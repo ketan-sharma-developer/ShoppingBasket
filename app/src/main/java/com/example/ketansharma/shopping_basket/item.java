@@ -5,7 +5,7 @@ import android.content.Context;
 import java.util.ArrayList;
 
 /**
- * Created by ketan.sharma on 23/02/2016.
+ * Created by ketan.sharma.
  * Class to get and set shopping items when
  * retrieving rows from SQLite
  */

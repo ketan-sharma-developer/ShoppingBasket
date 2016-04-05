@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
- * Created by ketan.sharma on 23/02/2016.
+ * Created by ketan.sharma.
  * This activity only shows items that have a quantity above zero
  * Users can still modify the contents of the basket, as they can on main_activity
  */

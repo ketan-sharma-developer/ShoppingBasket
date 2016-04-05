@@ -15,7 +15,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 /**
- * Created by ketan.sharma on 23/02/2016.
+ * Created by ketan.sharma.
  * This activity shows all products
  * Users can modify the quantities of what they want to buy.
  */

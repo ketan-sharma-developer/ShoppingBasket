@@ -14,7 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * Created by ketan.sharma on 23/02/2016.
+ * Created by ketan.sharma.
  * Class that inherits from ArrayAdapter to
  * populate the listviews.
  * This is where it is determined what and how

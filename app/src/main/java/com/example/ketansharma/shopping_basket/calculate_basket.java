@@ -5,7 +5,7 @@ import android.content.Context;
 import java.util.ArrayList;
 
 /**
- * Created by ketan.sharma on 24/02/2016.
+ * Created by ketan.sharma.
  * class to calculate the unit price and the overall basket
  */
 public class calculate_basket {

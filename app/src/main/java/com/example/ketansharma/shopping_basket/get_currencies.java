@@ -10,7 +10,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
- * Created by ketan.sharma on 23/02/2016.
+ * Created by ketan.sharma.
  * class to make HTTP Connection to web api,
  * which returns the currenct exchange rates.
  */
